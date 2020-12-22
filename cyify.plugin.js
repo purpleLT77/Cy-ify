@@ -7,7 +7,7 @@ var cyify = (() => {
     constructor() {
       this.makeOwO = function (e) {
         if (e.keyCode == 13) {
-          let txt = this.textContent.replace(/psy|sy|ci|si|psi|die|buy|try/g, "cy").replace(/Psy|Ci|Si|Die|Buy|Try/g, "Cy");
+          let txt = this.textContent.replace(/psy|sy|ci|si|psi|die|buy|try|hi|guy|ey|ye/g, "cy").replace(/Psy|Ci|Si|Die|Buy|Try|Hi|Guy|Ye/g, "Cy");
           this.focus();
           document.execCommand("selectAll");
           document.execCommand("insertText", true, txt);
@@ -27,7 +27,7 @@ var cyify = (() => {
 
     initialize() {
       ({PluginUpdater, WebpackModules, Tooltip, Modals, ReactTools, ContextMenu, Patcher, Settings, PluginUtilities, DiscordAPI} = ZLibrary);
-      PluginUpdater.checkForUpdate(this.getName(), this.getVersion(), "https://raw.githubusercontent.com/kaloncpu57/discord-plugins/master/owo-ify.plugin.js");
+      PluginUpdater.checkForUpdate(this.getName(), this.getVersion(), "https://raw.githubusercontent.com/purpleLT77/Cy-ify/main/cyify.plugin.js");
       this.setup();
     }
 
@@ -79,7 +79,7 @@ var cyify = (() => {
 
     getName        () { return "Cy-ify"; }
     getDescription () { return "owoify but Cy"; }
-    getVersion     () { return "0.3.0"; }
+    getVersion     () { return "0.1.0"; }
     getAuthor      () { return "edit by purple, made by kaloncpu57"; }
   }
 })();
