@@ -1,8 +1,6 @@
 # Cy-ify
 owo-ify but Cy
-
-
-This is just a skid of owo-ify plugin for discord, made for a stupid joke.
 find original plugin here: https://rauenzi.github.io/BDPluginLibrary/release/ZLibrary.js
 
-i would like to note that i dont know JS so not my problem if i break it xdxdxd
+i would like to note that i dont code for shit this was just something to annoy my friend
+also this is very likely broken and not my problem
